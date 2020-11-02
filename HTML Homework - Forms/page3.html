@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Homework - Recipe form</title>
+</head>
+
+<body>
+    <form>
+    <label for="search">Search for:</label><br>
+    <input type="search" name="search" size="40" value="chocolate cheesecake recipes">
+    <button>Search</button><br>
+    <label for="match">Match:</label>
+
+    <input type="radio" name="match" value="any_word">Any word
+    <input type="radio" name="match" value="all_words" checked>All words
+    <input type="radio" name="match" value="exact_phrase">Exact phrase
+    <br>
+    <label></label>
+    <input type="checkbox" name="s_match" value="sound_alike_match" checked>Sound-alike matching<br>
+    <label for="date">Dated:</label>
+    <input type="radio" name="date">
+    <select name="date" id="name">
+        <option value="last_year">Within the last year</option>
+        <option value="two_years">More than 2 years ago</option>
+    </select><br>
+    <input type="radio" name="date" checked>From:
+    <select name="month" id="month">
+        <option selected>September</option>
+        <option value="jan">January</option>
+        <option value="feb">February</option>
+        <option value="mar">March</option>
+        <option value="apr">April</option>
+        <option value="may">May</option>
+        <option value="jun">June</option>
+        <option value="jul">July</option>
+        <option value="aug">August</option>
+        <option value="sep">September</option>
+        <option value="oct">October</option>
+        <option value="nov">November</option>
+        <option value="dec">December</option>
+    </select>
+    <select name="day" id="day">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+        <option value="16">16</option>
+        <option value="17">17</option>
+        <option value="18">18</option>
+        <option value="19">19</option>
+        <option value="20">20</option>
+        <option value="21">21</option>
+        <option value="22">22</option>
+        <option value="23">23</option>
+        <option value="24">24</option>
+        <option value="25">25</option>
+        <option value="26">26</option>
+        <option value="27">27</option>
+        <option value="28">28</option>
+        <option value="29">29</option>
+        <option value="30">30</option>
+        <option value="31">31</option>
+    </select>,
+    <input type="number" name="year" id="year" min="1980" max="2020" value="2009">
+    To:<select name="month" id="month">
+        <option selected>October</option>
+        <option value="jan">January</option>
+        <option value="feb">February</option>
+        <option value="mar">March</option>
+        <option value="apr">April</option>
+        <option value="may">May</option>
+        <option value="jun">June</option>
+        <option value="jul">July</option>
+        <option value="aug">August</option>
+        <option value="sep">September</option>
+        <option value="oct">October</option>
+        <option value="nov">November</option>
+        <option value="dec">December</option>
+    </select>
+    <select name="day" id="day">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+        <option value="16">16</option>
+        <option value="17">17</option>
+        <option value="18">18</option>
+        <option value="19">19</option>
+        <option value="20">20</option>
+        <option value="21">21</option>
+        <option value="22">22</option>
+        <option value="23">23</option>
+        <option value="24">24</option>
+        <option value="25">25</option>
+        <option value="26">26</option>
+        <option value="27">27</option>
+        <option value="28">28</option>
+        <option value="29">29</option>
+        <option value="30">30</option>
+        <option value="31">31</option>
+    </select>,
+    <input type="number" name="year" id="year" min="1980" max="2020" value="2011"><br>
+
+    <label for="source">Within:</label>
+    <select name="source" id="source">
+        <option value="description">Description</option>
+        <option value="title">Title</option>
+    </select>
+    <label for="nr_results">Show:</label>
+    <input type="number" step="5" min="10" size="3">
+    <label for="results">results</label>
+    <select id="results" name="results">
+        <option value="summaries">with</option>
+        <option value="no_summaries">without</option>
+    </select>
+    summaries<br>
+    <label for="sort">Sort by:</label>
+    <select id="sort" name="sort">
+        <option value="relevance">relevance</option>
+        <option value="date">date</option>
+    </select>
+    <br><br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+    </form>
+<br>
+    <a href="page2.html" target="_blank">Back to page 2</a>
+    <a href="page4.html" target="_blank">Homework page 4</a>
+</body>
+
+</html>

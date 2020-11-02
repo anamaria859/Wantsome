@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+    <title>Homework - Reservation form</title>
+</head>
+
+<body>
+    <h1>Travel reservation form</h1>
+    <h3>* denotes mandatory</h3>
+    <form>
+        <label for="name">Full name*:</label><br>
+        <input type="text" id="name" name="name" placeholder="FirstName LastName" required><br>
+        <label for="email">Email address*:</label><br>
+        <input type="email" id="email" name="name" placeholder="EMAIL_ADDRESS" required><br>
+        <label for="package">Select Tour Package*:</label><br>
+        <select name="package" required>
+            <option value="goa">Goa</option>
+            <option value="istanbul">Istanbul</option>
+            <option value="cairo">Cairo</option>
+        </select>
+        <br>
+        <label for="arrival_date">Arrival date*:</label><br>
+        <input type="date" id="arrival_date" name="arrival_date" required><br>
+        <label for="nrPers">Number of persons*:</label><br>
+        <input type="number" id="nrPers" name="nrPers" placeholder="UNKNOWN_TYPE" required>
+        <p style="margin:0px">What would you want to avail?*</p>
+        Boarding<input type="checkbox" name="avail1" value="Boarding"><br>
+        Fooding<input type="checkbox" name="avail2" value="Fooding"><br>
+        Sight seeing<input type="checkbox" name="avail3" value="Sight_seeing"><br>
+        <p style="margin:0px">Discount Coupon code:</p>
+        <input type="text" id="coupon" name="coupon" placeholder="UNKNOWN_TYPE"><br>
+        <label for="terms">Terms and conditions*</label><br>
+        <input type="radio" name="terms" value="agree" checked>I Agree
+        <input type="radio" name="terms" value="disagree">I Disagree
+        <br>
+        <button type="submit">Complete reservation</button>
+
+    </form>
+    <br>
+<a href="index.html">Back to page 1</a><br>
+<a href="page3.html" target="_blank">Homework page 3</a>
+</body>
+</html>
