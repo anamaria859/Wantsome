@@ -1,0 +1,13 @@
+table, td{
+   border-collapse: collapse;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    }
+td{padding:30px;}
+.odd td:nth-of-type(even){
+    background-color: black;
+}
+.even td:nth-of-type(odd){
+    background-color: black;
+}
