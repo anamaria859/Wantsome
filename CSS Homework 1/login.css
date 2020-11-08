@@ -1,0 +1,44 @@
+form{
+    border: 10px solid rgb(214, 214, 214);
+    width: 30%;
+    margin: auto;
+    padding: 25px;
+    border-radius: 25px;
+    
+}
+h1 {
+    font-size: 20px;
+    font-family: helvetica;
+    margin: auto;    
+    text-align: center;
+}
+label{
+    font-family: helvetica;
+    font-size: 12px;
+    font-weight: bold;
+}
+div{
+    padding-left: 0px;
+    padding-top: 20px;
+}
+input{
+    width: 100%;
+}
+#remember{
+    font-family: helvetica;
+    font-size: 12px;
+    text-decoration: underline;
+}
+#username:after, #password:after{
+    content: " *";
+    color: red;
+}
+input[type="submit"]{
+    background-color: rgb(9, 139, 9);
+    color: white;
+    font-family: helvetica;
+    padding: 10px;
+}
+input[type="checkbox"]{
+    margin-left: 0px;
+}

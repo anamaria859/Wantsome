@@ -1,0 +1,10 @@
+h1::first-letter{
+    text-transform: uppercase;
+    font-family: verdana;
+}
+article>p{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}
