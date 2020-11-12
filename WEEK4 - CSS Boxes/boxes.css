@@ -1,0 +1,31 @@
+.gray{
+    background-color: rgb(180, 176, 176);
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+.yellow{
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.blue{
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 50%;
+    
+}
+.green{
+    background-color: green;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    margin-top: 50%;
+    margin-left: 50%;
+}
