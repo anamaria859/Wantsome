@@ -1,0 +1,28 @@
+body{
+    border: 2px solid green;
+    margin-bottom: 100px;
+    
+}
+nav {
+  border: 2px solid rgb(180, 37, 180);
+  position: absolute;
+  width: 150px;
+  box-sizing: border-box;
+  color: rgb(180, 37, 180);
+}
+
+div {
+  margin-left: 150px;
+}
+section {
+  border: 2px solid orange;
+  padding: 5px;
+}
+footer {
+  border: 2px solid rgb(36, 206, 36);
+  position: fixed;
+  width: 100%;
+  text-align: center;
+bottom: 0px;
+left:0 px;
+}
