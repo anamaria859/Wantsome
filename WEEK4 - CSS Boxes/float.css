@@ -1,0 +1,23 @@
+.menu{
+    background-color: rgb(139, 203, 224);
+    height: 50px;
+    width: auto;
+}
+.sidebar{
+    background-color: rgb(247, 150, 139);
+    width: 150px;
+    height: 200px;
+    float: left;
+}
+.content{
+    background-color: rgb(245, 201, 119);
+    width: 500px;
+    height: 400px;
+    
+    float: left;
+}
+.footer{
+    background-color: lightskyblue;
+    height: 50px;
+    clear: both;
+}
