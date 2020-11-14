@@ -25,4 +25,11 @@ footer {
   text-align: center;
 bottom: 0px;
 left:0 px;
+position: fixed;
+}
+img{
+    background-clip: border-box;
+    border: 10px dotted red;
+    padding: 10px;
+    background-color: rgb(250, 185, 185);
 }
