@@ -1,0 +1,32 @@
+.fonts{
+    font-weight: bold;
+    color: rgb(26, 4, 4);
+    padding: 10px;
+}
+header{
+    background-color: rgb(247, 78, 247);
+    height: 100px;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+}
+.leftsidebar{
+    background-color: rgb(64, 133, 238);
+    width: 150px;
+    
+}
+.rightsidebar{
+    background-color:rgb(49, 238, 24);
+    width: 150px;
+}
+.maincontent{
+    background-color: pink;
+    flex-grow: 1;
+}
+
+footer{
+    background-color: rgb(252, 179, 44);
+    height: 100px;
+}
