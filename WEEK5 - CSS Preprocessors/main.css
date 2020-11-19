@@ -1,0 +1,22 @@
+body {
+  background-color: #c46ff5;
+}
+
+section p, .section2 p {
+  color: green;
+}
+
+section, .section2 {
+  font-size: 12px;
+  font-family: verdana;
+  width: 500px;
+}
+
+.section2 {
+  border: 2px solid black;
+}
+
+header {
+  font-size: 50px;
+}
+/*# sourceMappingURL=main.css.map */

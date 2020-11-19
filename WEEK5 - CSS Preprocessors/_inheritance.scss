@@ -1,0 +1,9 @@
+section{
+    font-size: 12px;
+    font-family: verdana;
+    width: 500px;
+}
+.section2{
+    @extend section;
+    border: 2px solid black;
+}
