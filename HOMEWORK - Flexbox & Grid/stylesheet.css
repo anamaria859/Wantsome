@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    background-color: #ffe6ff;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+.color{
+    background-color: rgb(162, 250, 163);
+}
+.height{
+    height: 70px;
+}
+.size{
+    width: 250px;
+    height: 250px;
+}
+main{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(162,250,163,0.7)
+}
+.section1{
+    background-image: url("https://images.pexels.com/photos/1028741/pexels-photo-1028741.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-color: #cccccc;
+    background-position: center;
+    background-size: cover;
+    
+}
+.title{
+    color:wheat;
+    margin: 15px;
+}
+
+.section2{
+    background-image: url("https://images.pexels.com/photos/1179476/pexels-photo-1179476.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-color: #cccccc;
+    background-position: center;
+    background-size: cover;
+}
+
+.section3{
+    background-image: url("https://thumbs.dreamstime.com/b/vintage-clock-showing-old-styled-69517630.jpg");
+    background-color: #cccccc;
+ /*   background-position: center;*/
+    background-size: cover;
+}
