@@ -1,0 +1,66 @@
+div.one {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s;
+  /*transition here */
+}
+
+div.two {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  transition: width 2s;
+  transition-delay: 2s;
+  /*transition here */
+}
+
+div#main:hover .one {
+  width: 300px;
+}
+
+div#main:hover .two {
+  width: 300px;
+}
+#mmain {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: 2s;
+  /* code here*/
+}
+
+div#mmain:hover {
+  background-color: blue;
+  transform: rotate(180deg);
+  /* code here*/
+}
+#animation {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: color;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+  }
+  @keyframes color {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+#animation2{
+    width: 300px;
+  height: 100px;
+  position: relative;
+  background-color: red;
+  animation-name: moving;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes moving {
+    0%{background-color: red; top: 0px; left: 0px;}
+    25%{background-color: yellow; top: 50px; left: 0px;}
+    50%{background-color: green; top: 50px; left: 50px;}
+    75%{background-color: blue; top: 0px; left: 50px;}
+    100%{background-color: red; top: 0px; left: 0px;}
+}
