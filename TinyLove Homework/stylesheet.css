@@ -1,0 +1,147 @@
+body{
+    margin: 0px;
+    font-family: "open-sans", sans-serif;
+}
+.topsection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+    background-image: url("Pics/phone_main-removebg-preview-top.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-color: #b45a50;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+header h2{
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+header h1{
+    color:white;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0px;
+}
+.promoStatement>h1{
+    color: white;
+    font-weight: normal; 
+    
+}
+.promoStatement>p{
+    display: none;
+    color: white;
+}
+.topsection>img{
+    display: none;
+}
+a[class^="fa"]{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+.whiteSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    padding: 30px;
+    
+}
+.whiteSection>p{
+    text-align: center;
+}
+section h1{
+    font-weight: normal;
+}
+section h2{
+    color: gray;
+    font-weight: normal;
+}
+.orangeFooter{
+    background-color: #b45a50;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+.orangeFooter>h1{
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+.howItWorks{
+    background-color: #29292e;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.howItWorks>section{
+    background-color:#393b47;
+}
+section h1{
+    margin: 0px;
+    padding: 15px;
+    font-weight: normal;
+    font-size: 50px;
+}
+.howItWorks>h2{
+    font-weight: normal;
+}
+.howItWorks>p{
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    padding: 20px;
+}
+section{
+    width:100%;
+}
+section p{
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    padding: 20px;
+}
+section img{
+    width: 100%;
+}
+.howItWorks>img{
+    width: 100%;
+    
+}
+.contactForm{
+    background-color: #b45a50;
+    color: white;
+    text-align:center;
+    margin-top: 0px;
+    padding-top: 25px;
+}
+form{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: left;
+}
+label:after {
+    content:" *";
+    color: white;
+  }
+  input[type=submit]{
+      background-color:#964a42;
+      color: white;
+      border: 0px;
+      align-self: left;
+      margin-top: 5px;
+      padding: 5px;
+      width: 50px;
+  }
+  .copyright{
+      text-align: center;
+      color: #b45a50;
+  }
