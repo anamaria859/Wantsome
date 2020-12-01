@@ -34,7 +34,8 @@ console.log(stringPosition);//-1
    var text = "24 de orE intr-o zi, 24 de beRi intr-o lAda. Vreo coincidenta?"
    var text1 = text.toUpperCase()
    var text2 = text.toLowerCase()
- // ??????????????
+  console.log(text1)
+  console.log(text2)
 
 // Ex6: Vreau sa am la final un singur string cu toate celalte stringuri (indentati calumea, cu spatii unde e nevoie)
    var text1 = "Când ai un";
@@ -45,13 +46,16 @@ console.log(stringPosition);//-1
    console.log(fulltext);
 
    
-// Ex7: Vreau sa stiu intai ce litera se afla pentru indexul 6, apoi ce unicode are aceasta litera, si apoi vreau sa o accesez cu 'property access'
+// Ex7: Vreau sa stiu intai ce litera se afla pentru indexul 6, apoi ce unicode are
+// aceasta litera, si apoi vreau sa o accesez cu 'property access'
   var word = "Mamaliga";
   var letterSix = word.charAt(6)
   console.log(letterSix)
   var unicodeSix = word.charCodeAt(6)
   console.log(unicodeSix)
   //word[6] - property access
+  var propacc = word[6];
+  console.log(propacc)
  
 // Ex8: Vreau sa am o noua variabla care sa cotina un array format din toate stringurile de mai jos care sunt despartite de '|'
   var cars = "Toyota|Mazda|Tesla|Hyundai|Dacia";
