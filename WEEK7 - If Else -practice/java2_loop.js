@@ -1,10 +1,11 @@
 // 1.Scrieti o functie care accepta ca argument o valoare numerica si afiseaza 
 //de atatea ori pe ecran textul: “Sunt la iteratia numarul [index]” - 
 //Scrieti codul in doua variante
-
-for(var i=0; i<=10; i++){
+function iterate(number){
+for(var i=0; i<=number; i++){
 console.log("Sunt la iteratia numarul "+i);
-}
+}}
+iterate(10)
 
 var j=10;
 while (j<=15){
