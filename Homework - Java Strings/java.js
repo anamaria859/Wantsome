@@ -89,6 +89,32 @@ insertText("ana are mere", 4, "cucubau");
 
 //9.Scrieti o functie care elimina prima aparitie a unui string dintr-un alt string:
 
+function firstApp(firstText,secondText){
+  
+  var result9 = firstText.replace(secondText,'')
+  console.log(result9)
+}
+firstApp('ana are mere si maria are mere','mere')
+firstApp('unudoiunutrei','unu')
+
 //10.Scrieti o functie care compara doua string-uri case-insensitive
 
+function compare(firstString, secondString){
+  if (firstString.toLowerCase() === secondString.toLowerCase()) {
+    console.log('textele sunt la fel')
+  }else{
+    console.log('textele nu sunt la fel')
+  }
+}
+compare('Ana','Ana')
+compare('ANA','anA')
+compare('Anna','ana')
+
 //11. Scrieti o functie care face ca primul caracter a unui string sa fie de tip uncapital
+
+function uncapital(text11){
+  var result11 = text11.replace(text11.charAt(0),text11.charAt(0).toLowerCase())
+  console.log(result11)
+}
+uncapital('Ana')
+uncapital('AAAAA')
