@@ -1,0 +1,69 @@
+/*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+        #introducing{
+            background-position: left bottom;
+        }
+        #notMobile{
+            display: inline-flex;
+            padding-left: 50px;
+            padding-right: 50px;
+            text-align: center;
+        }
+        #frontView>img, .blackBackground>img, .grayBackground>img{
+            width: 75%;
+        }
+        form{
+            padding-left: 30px;
+            padding-right: 40px; 
+        }
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+        #whiteSection{
+        flex-direction: row;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        }
+        #frontView>img, .blackBackground>img, .grayBackground>img{
+            width: 50%;
+        }
+        #frontView{
+            display: flex;
+            flex-direction: row;
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+        #middleSection{
+            display: flex;
+            flex-direction: row-reverse;
+        }
+        #endSection{
+            display: flex;
+            flex-direction: row;
+        }
+        .textDescription{
+            display: flex;
+            flex-direction: column;
+        }
+        form{
+            padding-left: 250px;
+            padding-right: 250px; 
+        }
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+    }

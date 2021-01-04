@@ -1,0 +1,137 @@
+body{
+    margin: 0px;
+    font-family: "open-sans", sans-serif;
+}
+#introducing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #b45a50;
+    color: white;
+    background-image: url("Pics/phone_main-removebg-preview-top\ \(2\).png");
+    background-repeat: no-repeat;
+    background-position: bottom
+}
+#notMobile{
+    display:none;
+}
+#socialMedia>a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+[class^="fa"]{
+    color: #b45a50;
+    scale: 1.5;
+    margin-top: 30px;
+}
+#socialMedia>h1{
+    padding-top: 20px;
+}
+#introducing>h1{
+    font-weight: normal;
+    text-align: center; 
+    margin: 0px;
+}
+#whiteSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.sectionHeading{
+    color: gray;
+    font-weight: normal;
+}
+.sectionParagraph{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#singleSentence{
+    background-color: #b45a50;
+    color: white;
+    text-align: center;
+}
+#singleSentence>h1{
+    font-weight: normal;
+    font-size: 50px;
+    margin: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+.descriptionHeading{
+    font-weight: normal;
+}
+.descriptionParagraph{
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.grayBackground{
+    background-color: #393b47;
+    width: 100%;
+}
+.grayBackground>h1{
+    font-size: 50px;
+    font-weight: normal;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 0px;
+}
+#frontView>img, .blackBackground>img, .grayBackground>img{
+    width: 100%;
+}
+.blackBackground{
+    background-color:#29292e;
+    width: 100%;
+}
+
+#contactForm{
+    background-color: #b45a50;
+    color: white;
+}
+#contactForm>h1{
+    text-align: center;
+    margin: 0px;
+    padding-top: 30px;    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-left:20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+label{
+    padding-top: 20px;
+}
+label:after {
+    content:" *";
+    color: white;
+  }
+input[type=submit]{
+    background-color:#964a42;
+    color: white;
+    border: 0px;
+    align-self: left;
+    margin-top: 5px;
+    padding: 5px;
+    width: 50px;
+}
+#copyright{
+    text-align: center;
+    color: #b45a50;
+}
